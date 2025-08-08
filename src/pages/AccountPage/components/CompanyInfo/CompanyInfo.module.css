@@ -1,0 +1,83 @@
+.wrapper {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #21333f;
+  cursor: pointer;
+}
+
+.dispatcher {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #dee0e2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 12px 0px;
+  padding: 7px 13px;
+}
+
+.dispatcherTitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #21333f;
+}
+.previewBtn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  color: #03a9f4;
+}
+
+.previewBtnIcon {
+  width: 16px;
+  height: 16px;
+  background: url(../AccountInfo/icons/dashicons_arrow-down-alt2.svg);
+}
+
+.smallTitle {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 10px 0;
+  color: #21333f;
+}
+
+.descriptionPosition {
+  background: url(./icons/Group\ 11.svg);
+  width: 327px;
+  height: 18px;
+  margin: 4px 0;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 5px;
+}

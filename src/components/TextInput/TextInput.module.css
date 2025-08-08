@@ -1,0 +1,34 @@
+.textInput { 
+    width: 199px;
+    height: 32px;
+}
+
+.textInput input { 
+    height: 32px;
+    background: #FFFFFF !important;
+    border: 1px solid #DEE0E2 !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+}
+
+.textInput input:hover { 
+    background: #FFFFFF;
+    border: 1px solid #21333F !important;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.textInput input:focus {
+    background: #FFFFFF !important;
+    border: 1px solid #03A9F4 !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;   
+}
+
+.textInput input:disabled {
+    background: #E9E9E9 !important;
+    border: 1px solid #DEE0E2 !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+    color: #9BA3A8 !important;
+}

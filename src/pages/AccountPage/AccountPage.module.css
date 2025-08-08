@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.contentWrapper {
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  display: flex;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin: 10px 10px 0px;
+  width: 100%;
+}
+
+.contentWrapper > div {
+  width: 50%;
+  height: 100%;
+  padding: 15px 20px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+}

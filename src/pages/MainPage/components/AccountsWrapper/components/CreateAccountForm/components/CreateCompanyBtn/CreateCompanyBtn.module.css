@@ -1,0 +1,11 @@
+.wrapper {
+  width: 645px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #03a9f4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+}

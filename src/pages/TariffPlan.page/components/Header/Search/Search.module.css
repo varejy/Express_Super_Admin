@@ -1,0 +1,8 @@
+.searchInputPaper {
+    width: 450px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #DEE0E2;
+    box-sizing: border-box;
+    border-radius: 5px;
+}

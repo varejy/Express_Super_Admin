@@ -1,0 +1,178 @@
+.wrapper {
+  width: 100%;
+}
+
+.subHeaderWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  max-height: 40px !important;
+  background: #ffffff !important;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.tariffPlansFlexWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.tariffPlanBlock {
+  position: relative;
+  width: 730px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0 16px 20px 20px;
+}
+
+.tariffPlanBlock > .blockHeader {
+  margin-top: 16px;
+}
+
+.blockHeader > .blockTitle {
+  color: #21333f;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.blockHeader > .blockSubtitle {
+  margin: 0px !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #647079;
+}
+
+.tariffPlanBlock > .tiles {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.tiles > .tile > .tileTitle {
+  margin: 0 !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #21333f;
+}
+
+.tiles > .tile > .tileValue {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #03a9f4;
+}
+
+.blockPart {
+  margin-top: 16px !important;
+}
+
+.blockPart > .partTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #21333f;
+  margin-bottom: 11px;
+}
+
+.blockPart > .partContent {
+  font-size: 14px;
+  line-height: 17px;
+  color: #647079;
+  display: flex;
+  flex-direction: column;
+}
+
+.tariffPlanBtns {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  right: 20px;
+  top: 20px;
+}
+
+.tabLists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstTabList {
+  min-width: 862px !important;
+}
+
+.tabLists > * {
+  min-height: 40px !important;
+}
+
+.tab {
+  text-transform: none !important;
+}
+
+.settings {
+  margin-left: 26% !important;
+}
+
+.settingsWrapper {
+  color: rgba(100, 112, 121, 1);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.settingsImage {
+  background: url(./images/settings.svg);
+  width: 13px;
+  height: 13px;
+}
+
+.firstTabList > div > span {
+  border-radius: 3px 3px 0px 0px;
+}
+
+/* Information List Styles */
+
+.informationListWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.informationListWrapper .infoListRow {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.informationListWrapper .infoListKeyColumn {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  width: 100%;
+  color: #647079;
+}
+
+.informationListWrapper .infoListValueColumn {
+  text-align: right;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  min-width: 360px;
+  color: #21333f;
+}

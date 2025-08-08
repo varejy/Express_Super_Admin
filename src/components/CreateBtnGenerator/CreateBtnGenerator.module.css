@@ -1,0 +1,16 @@
+.createButton {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  color: #03a9f4;
+  cursor: pointer;
+}
+
+.createButtonIcon {
+  background: url(./icons/carbon_add.svg);
+  width: 20px;
+  height: 20px;
+}

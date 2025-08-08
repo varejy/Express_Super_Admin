@@ -1,0 +1,14 @@
+.editButton {
+  background: #ebebeb !important;
+  border-radius: 5px !important;
+  width: 32px !important;
+  height: 32px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #647079 !important;
+}
+
+.smallPadding {
+  padding: 6px !important;
+}

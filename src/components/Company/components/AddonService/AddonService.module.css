@@ -1,0 +1,57 @@
+.container .inputField.centerText {
+  text-align: center;
+}
+
+.container .inputField.centerText > * {
+  text-align: center;
+}
+
+.addonService {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  line-height: 14px;
+  color: #21333f;
+}
+
+.addonServicePrice {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #21333f;
+}
+
+.displayFlex {
+  display: flex;
+  align-items: center;
+}
+
+.countServiceInputWrapper {
+  gap: 12px;
+}
+
+.tariffContainer {
+  width: 97%;
+  margin: 0 0 0 5%;
+}
+
+.checkedImage {
+  background: url(../../../../assets/icons/checkedImage.svg) 0px 0px no-repeat;
+  background-size: 18px;
+  min-width: 18px;
+  min-height: 18px;
+}
+
+.formCheckBox > * {
+  margin: 2px !important;
+}
+
+.formCheckBox {
+  margin-right: 0px !important;
+}
+
+.driverIncludeCountInput {
+  max-width: 70px;
+}

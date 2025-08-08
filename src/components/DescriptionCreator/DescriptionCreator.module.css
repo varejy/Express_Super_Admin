@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.key {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #21333f;
+}
+
+.value {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #647079;
+  margin: 0px 4px;
+}

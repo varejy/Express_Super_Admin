@@ -1,0 +1,12 @@
+.fieldValue {
+  width: 330px;
+}
+
+.small {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small > * {
+  width: 100%;
+}

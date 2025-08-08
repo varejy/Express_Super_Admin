@@ -1,0 +1,67 @@
+.content {
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #21333f;
+  cursor: pointer;
+}
+
+.accordionIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.displayFlex {
+  display: flex;
+  gap: 10px;
+}
+
+.services {
+  margin: 15px 0;
+}
+
+.accordionTitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #21333f;
+}
+
+.accordionTitle > * {
+  font-weight: normal !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+}
+
+.errors {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f83528;
+  display: flex;
+}
+
+.errorIcon {
+  width: 16px;
+  height: 16px;
+  background: url(../../../../assets/icons/clarity_warning-solid.svg);
+}
+
+.contact {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.table {
+  margin: 0 14px;
+}

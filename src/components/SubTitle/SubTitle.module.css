@@ -1,0 +1,27 @@
+.subTitleWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #647079;
+  margin: 5px 0 0 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.smallTxt {
+  font-size: 12px;
+  line-height: 14px;
+  color: #647079;
+}
+
+.radialDivider {
+  background: url(./images/divider.png);
+  width: 5px;
+  height: 5px;
+  margin: 0 0 0 10px;
+}

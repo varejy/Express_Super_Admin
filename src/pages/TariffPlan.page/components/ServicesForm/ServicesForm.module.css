@@ -1,0 +1,116 @@
+.wrapper {
+  width: 730px;
+  margin: 0 auto;
+}
+
+.wrapper .containerHeader {
+  margin-top: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerHeader .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #21333f;
+}
+
+.container {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.block {
+  width: 730px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.block .blockContent {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.field {
+  display: flex;
+  flex-direction: row;
+}
+.field > .fieldText {
+  min-width: 245px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #21333f;
+}
+
+.field .fieldContent {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.inputRow {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.serviceTitleRow .fieldContent .inputField {
+  min-width: 370px;
+}
+
+.serviceTitleRow .deleteButton {
+}
+
+.serviceCostRow .fieldContent {
+  max-width: 370px;
+}
+
+.serviceCostRow .fieldContent .costSelect {
+  min-width: 270px;
+}
+
+.serviceCostRow .fieldContent .inputField {
+  width: 90px !important;
+  box-sizing: border-box;
+}
+
+.saveButton {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 52px;
+}
+
+.select {
+  height: 32px;
+
+  border: 1px solid rgba(33, 51, 63, 0.15);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.select > * {
+  max-height: 32px;
+}

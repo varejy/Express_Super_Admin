@@ -1,0 +1,251 @@
+.wrapper .container {
+  margin: 24px auto;
+  max-width: 645px;
+}
+.wrapper .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  color: #21333f;
+}
+
+.wrapper .container .form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wrapper .container .formBlock {
+  background: #ffffff;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.wrapper .container .formFields {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.wrapper .container .field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrapper .container .field .fieldText {
+  width: 250px;
+  min-width: 250px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  display: flex;
+  align-items: center;
+
+  color: #21333f;
+}
+
+.wrapper .container .field .fieldContent {
+  width: 100%;
+}
+
+.field .flexRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.container .inputField {
+  width: 100%;
+}
+
+.container .inputField.centerText {
+  text-align: center;
+}
+
+.container .inputField.centerText > * {
+  text-align: center;
+}
+
+.container .costRow {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .costRow .select {
+  min-width: 230px;
+}
+
+.container .costRow .inputField,
+.costRow .inputField input {
+  width: 90px;
+}
+
+.wrapper .container .select {
+  width: 230px;
+  height: 32px !important;
+
+  border: 1px solid rgba(33, 51, 63, 0.15) !important;
+  box-sizing: border-box !important;
+  border-radius: 5px !important;
+}
+
+.select > * {
+  display: none;
+}
+
+.wrapper .form .formBlockHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.wrapper .form .formBlockTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #21333f;
+}
+
+.formBlockIncludeServices .checkbox {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+/* Service List */
+.formServiceList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+.serviceContainer .serviceRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.serviceContainer .serviceCheckbox {
+  margin: 15px 15px 0 0;
+  display: flex;
+}
+
+.serviceContainer .serviceCheckbox > * {
+  width: 16px;
+  height: 16px;
+}
+
+.serviceContainer .serviceContent {
+  width: 100%;
+}
+
+.serviceContainer .serviceContent .serviceContentRow {
+  display: flex;
+}
+
+.serviceContainer
+  .serviceContent
+  .serviceContentRow
+  > .serviceInfoBlock:first-child {
+  max-width: 300px;
+  width: 300px;
+}
+.serviceContainer
+  .serviceContent
+  .serviceContentRow
+  > .serviceInfoBlock:first-child.infoFullWidth {
+  min-width: 100% !important;
+}
+
+.serviceInfoBlock.serviceInfoRow {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.serviceInfoBlock.serviceInfoRow .inputField {
+  width: 80px;
+  max-width: 80px;
+}
+
+.serviceInfoBlock.serviceInfoRow .select {
+  max-width: 140px !important;
+  min-width: 140px !important;
+  max-height: 32px !important;
+}
+.serviceInfoBlock.serviceInfoRow .select > * {
+  font-size: 14px;
+}
+
+.serviceContainer .divider {
+  margin: 10px 0 0 !important;
+}
+
+.serviceContainer .serviceInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.serviceContainer .serviceInformation .serviceTitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #21333f;
+  margin: 0 !important;
+}
+
+.serviceContainer .serviceInformation .serviceDescription {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #647079;
+  margin: 0 !important;
+}
+
+/* End of Service list */
+
+.driverIncludeCountInput {
+  max-width: 70px;
+}
+
+.inputWithLabel {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.inputWithLabel .inputField {
+  max-width: 90px;
+}
+
+.inputWithLabel .label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #21333f;
+}

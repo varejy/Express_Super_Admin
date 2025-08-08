@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+}
+
+.margin {
+  margin: 8px !important;
+}
+
+.createNewTaxiService {
+  width: 100px;
+  height: 100%;
+}

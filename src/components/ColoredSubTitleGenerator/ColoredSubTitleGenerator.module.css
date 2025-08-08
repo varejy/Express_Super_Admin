@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-end;
+  gap: 11px;
+}
+
+.key {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #21333f;
+}
+
+.value {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}

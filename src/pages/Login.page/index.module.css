@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formWrapper {
+  width: 400px;
+  height: 330px;
+  border: 1px solid grey;
+  border-radius: 17px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 190px;
+  justify-content: space-between;
+}
+
+.p {
+  color: red;
+  margin: 0px;
+}

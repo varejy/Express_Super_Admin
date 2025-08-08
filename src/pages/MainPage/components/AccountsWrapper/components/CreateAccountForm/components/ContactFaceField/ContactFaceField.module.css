@@ -1,0 +1,42 @@
+.wrapper {
+  width: 97%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin: 0 0 0 5%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #21333f;
+}
+
+.deleteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #647079;
+}
+
+.deleteBtnIcon {
+  background: url(../../../../../../../../assets/icons/Delete.svg);
+  width: 16px;
+  height: 16px;
+}

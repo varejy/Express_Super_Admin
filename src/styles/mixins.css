@@ -1,0 +1,15 @@
+@define-mixin removeDefaultButton {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    color: inherit;
+    line-height: normal;
+    overflow: visible;
+    background-color: transparent;
+
+    &:focus {
+         outline: none;
+         box-shadow: none;
+     }
+}

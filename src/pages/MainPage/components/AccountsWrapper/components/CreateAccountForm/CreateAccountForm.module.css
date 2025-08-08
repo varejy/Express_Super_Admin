@@ -1,0 +1,54 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.container {
+  width: 645px;
+}
+
+.title {
+  margin: 0 0 24px 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #21333f;
+}
+
+.tabs > div:first-child {
+  background: #ebebeb !important;
+  padding: 8px 8px 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-bottom: 0px solid #d4d4d5 !important;
+  position: relative;
+}
+
+.tabs > div:first-child::-webkit-scrollbar {
+  height: 3px;
+  cursor: pointer;
+}
+
+.tabs > div:first-child > a {
+  color: #03a9f4 !important;
+  font-size: 14px !important;
+  padding: 13px 20px !important;
+}
+
+.addCompanyBtn {
+  min-width: 24px;
+  height: 24px;
+  margin: auto 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: url(../../../../../../assets/icons/PlusWhite.svg) no-repeat;
+  position: sticky;
+  top: 0px;
+  right: 0px;
+}

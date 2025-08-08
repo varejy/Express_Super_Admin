@@ -1,0 +1,20 @@
+.wrapper {
+  width: 450px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #dee0e2;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.select {
+  min-width: 166px !important;
+  max-height: 38px !important;
+  min-height: 38px !important;
+  padding: 10px 13px !important;
+}
+
+/* .select > {
+  min-width: 158px !important;
+  max-height: 38px !important;
+} */

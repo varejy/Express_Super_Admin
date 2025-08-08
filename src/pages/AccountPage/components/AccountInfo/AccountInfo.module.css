@@ -1,0 +1,180 @@
+.wrapper {
+  min-width: 480px;
+  border-right: 1px solid #dfe5eb;
+  background: #f6f6f6;
+}
+
+.header {
+  margin: 20px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #21333f;
+  cursor: pointer;
+}
+
+.table {
+  margin: 10.58px 20px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.panel {
+  padding: 10px !important;
+}
+
+.tableContent {
+  padding: 3px 3px;
+}
+
+.displayFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.txtBtnWrapper {
+  gap: 8.5px;
+  margin: 12px 20px 0px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 15px;
+  height: 32px;
+  background: #ebebeb;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #647079;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #dbdada;
+}
+
+.tab {
+  width: 50%;
+  border-bottom: 1px solid #dfe5eb !important;
+}
+
+.dispatcher {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #dee0e2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 12px 20px;
+  padding: 7px 13px;
+}
+
+.dispatcherTitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #21333f;
+}
+.previewBtn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  color: #03a9f4;
+}
+
+.previewBtnIcon {
+  width: 16px;
+  height: 16px;
+  background: url(./icons/dashicons_arrow-down-alt2.svg);
+}
+
+.companyHeader {
+  margin: 20px 20px 0px;
+}
+
+.companyHeader > div {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #21333f;
+}
+
+.companies {
+  margin: 14px 0;
+}
+
+.company {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.contentCompany {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.activeCompany {
+  background: #ffffff;
+}
+
+.companyName {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #21333f;
+}
+
+.errors {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f83528;
+  display: flex;
+}
+
+.errorIcon {
+  width: 16px;
+  height: 16px;
+  background: url(../../../../assets/icons/clarity_warning-solid.svg);
+}
+
+.formWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.container {
+  width: 645px;
+}
+
+.title {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #21333f;
+}

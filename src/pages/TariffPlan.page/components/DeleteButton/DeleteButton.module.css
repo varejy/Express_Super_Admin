@@ -1,0 +1,15 @@
+.deleteButton { 
+    height: 32px;
+    width: 32px;
+
+    background: #EBEBEB !important;
+    border-radius: 5px !important;
+}
+
+
+.deleteButton > .deleteIcon {
+    background: url(./images/delete.svg) no-repeat;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+}
